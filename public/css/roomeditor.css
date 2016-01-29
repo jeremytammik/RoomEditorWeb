@@ -1,0 +1,36 @@
+th { text-align: left }
+th, td { border: 1px solid black; white-space: nowrap; overflow: hidden; cursor: pointer; }
+table { border-collapse: collapse; font-size: smaller }
+thead th, tbody th, tfoot th,
+table.dataTable thead td, table.dataTable tbody td, table.dataTable tfoot td,
+table.dataTable thead th, table.dataTable tbody th, table.dataTable tfoot th { padding: 1pt }
+p.placeholder { font-style: italic; color: darkgray; text-align: center; vertical-align: middle; line-height: 90px; /* the same as your div height */ }
+
+.box {
+  background-color: gray;
+  position: relative;
+  width: 90%;
+  margin: auto;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.box::before {
+  content: "";
+  display: block;
+  padding-top: 30% /* read comments in JS box) */
+}
+
+#viewer {
+  width: 100%;
+  /* height: 0.66 * vv; */
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0
+  overflow: hidden;
+  background-color: #cccccc;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}

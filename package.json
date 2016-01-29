@@ -1,0 +1,30 @@
+{
+  "name": "RoomEditorWeb",
+  "version": "0.0.1",
+  "description": "Cloud-based 2D round-trip real-time Revit BIM room editor for any desktop or mobile device",
+  "main": "server.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeremytammik/RoomEditorWeb"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "handlebars": "^4.0.2",
+    "express-handlebars": "^2.0.1",
+    "mongoose": "*",
+    "mongoose-datatable": "^1.0.4"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "mongoose"
+  ]
+}

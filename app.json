@@ -1,0 +1,6 @@
+{
+  "name": "RoomEditorWeb",
+  "description": "Cloud-based 2D round-trip real-time Revit BIM room editor for any desktop or mobile device",
+  "repository": "https://github.com/jeremytammik/RoomEditorWeb",
+  "keywords": ["node", "mongodb", "mongoose"]
+}

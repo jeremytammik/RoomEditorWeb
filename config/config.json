@@ -1,0 +1,11 @@
+{
+  "port": 8042,
+  "db": {
+    "local": false,
+    "host": "ds051543.mongolab.com",
+    "database": "roomeditordb",
+    "username": "arthur",
+    "password": "42",
+    "port": 51543
+  }
+}
