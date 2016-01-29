@@ -2,14 +2,16 @@
 
 Cloud-based 2D round-trip real-time Revit BIM room editor for any desktop or mobile device.
 
-[RoomEditorApp]
+RoomEditorWeb is a node.js web server driving a MongoDB database storing data from Revit BIM models, levels, rooms, family symbols, furniture and equipment family instances.
 
-Node.js web server, mongo database and user interface
+It interacts with the [RoomEditorApp](https://github.com/jeremytammik/RoomEditorApp) Revit add-in, which implements a C# REST client to feed the database and retrieve updated furniture locations.
+
+Node.js web server, mongo database and user interface.
 
 
 
 
-## Author
+## Authors
 
 - Jose Ignacio Montes, [@montesherraiz](https://github.com/Montesherraiz), [Avatar BIM](http://avatarbim.com).
 - Jeremy Tammik,
